@@ -1,11 +1,34 @@
 const puppeteer = require('puppeteer')
 const fs = require('fs/promises')
+const Wappalyzer = require('wappalyzer')
+const readline = require('readline');
+const { stdin } = require('process');
+
+let website;
+let contentManagementSystem;
+let headlineArr = [];
+
+//get user input
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
+
+//Ask user for website url
+const askForURL = () => {
+    return(
+        rl.question("Please add URL: ", function(site) {
+            website = site;
+            getCMS(site)
+        })
+    )
+}
 
 //async functions 
-async function start() { //init function
+async function crawl(siteName) { //init function
     const browser = await puppeteer.launch() //launch browser
     const page = await browser.newPage() //launch new page
-    await page.goto("https://www.jcchouinard.com/")
+    await page.goto(siteName)
 
     //extract blog title
 
