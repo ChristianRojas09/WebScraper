@@ -1,5 +1,25 @@
 const puppeteer = require('puppeteer')
 const fs = require('fs/promises')
+const readline = require('readline')
+const wappalyzer = require('wappalyzer')
+
+//use readline to get the website URL from the user
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
+
+//ask user for site via terminal
+const siteInput = () => {
+    return (
+        rl.question("Please provide the URL: ", function(site) {
+            website = site;
+            getCMS(site)
+        })
+    )
+}
+
+siteInput();
 
 //async functions 
 async function start() { //init function
@@ -18,4 +38,4 @@ async function start() { //init function
     await browser.close() //close browser
 }
 
-start()
+start();
