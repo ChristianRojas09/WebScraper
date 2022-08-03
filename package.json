@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/ChristianRojas09/WebScraper#readme",
   "dependencies": {
+<<<<<<< HEAD
     "puppeteer": "^15.5.0",
     "readline": "^1.3.0"
+=======
+    "puppeteer": "^15.5.0"
+>>>>>>> 88ad1aff6eb1c55623022cbc431519a7dc15d9af
   }
 }

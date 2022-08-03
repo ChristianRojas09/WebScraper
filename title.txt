@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Blog
 How Google Displays Images Within Web Search Results?
 How Google Selects the Most Representative Image of a Set
@@ -28,4 +29,36 @@ Supervised Learning in Machine Learning (Introduction)
 Scikit-learn (Sklearn)
 Preprocessing Data With SCIKIT-LEARN (Python tutorial)
 Understand Linear Regression with Python
+=======
+Blog
+How Google Displays Images Within Web Search Results?
+How Google Selects the Most Representative Image of a Set
+Clustering Queries for Image Search at Google
+Improve PageSpeed on my WordPress Site
+Search Results Annotations at Google
+Clone a Github Repository on Your Computer
+TF-IDF on Google Search Console Data
+k-Nearest Neighbors (KNN) in Python
+Machine Learning (ML) – Complete Guide
+Boosting in Machine Learning
+Hierarchical Clustering in Python
+Ensemble Learning Algorithms
+Decision Trees in Machine Learning
+PCA: Principal Component Analysis using Python
+Clustering and De-duplication of web pages using KMeans and TF-IDF
+What is KMeans Clustering – Complete Guide
+Clustering in Machine Learning
+Dimension reduction in Machine Learning
+Classification Machine Learning Project in Scikit-Learn
+What is Logistic Regression in Machine Learning?
+How to use Classification Report in Scikit-learn
+How to use Confusion Matrix in Scikit-Learn
+Regression in Machine Learning
+Classification In Machine Learning
+Unsupervised Learning
+Supervised Learning in Machine Learning (Introduction)
+Scikit-learn (Sklearn)
+Preprocessing Data With SCIKIT-LEARN (Python tutorial)
+Understand Linear Regression with Python
+>>>>>>> 88ad1aff6eb1c55623022cbc431519a7dc15d9af
 Ranking Rich Results for SEO (With Structured Data Examples)
